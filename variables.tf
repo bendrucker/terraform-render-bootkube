@@ -98,3 +98,9 @@ variable "ca_private_key" {
   type        = "string"
   default     = ""
 }
+
+variable "apiserver_arguments" {
+  description = "List of custom arguments to pass to apiserver"
+  type        = "list"
+  default     = []
+}
